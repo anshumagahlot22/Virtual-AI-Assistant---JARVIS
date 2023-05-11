@@ -192,13 +192,13 @@ def TaskExe():
             keyboard.press_and_release('ctrl +h')
 
     def screenshot():
-        Speak("Ok Boss , What Should I Name That File ?")
+        Speak("Ok Sir , What Should I Name That File ?")
         path = takecommand()
         path1name = path + ".png"
-        path1 = "E:\\Kaushik Shresth\\Screenshots\\" + path1name
+        path1 = "E:\\Anshuma\\Screenshots\\" + path1name
         kk = pyautogui.screenshot()
         kk.save(path1)
-        os.startfile("E:\\Kaushik Shresth\\Screenshots")
+        os.startfile("E:\\Anshuma\\Screenshots")
         Speak("Here Is Your ScreenShot")
 
     while True:
